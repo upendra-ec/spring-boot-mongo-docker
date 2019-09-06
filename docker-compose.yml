@@ -4,7 +4,7 @@ services:
   springboot:
     image: upendra6/spring-boot-mongo:latest
     restart: always
-    container_name: springboot
+    container_name: springboot-ui
     ports:
       - 9090:8080
     working_dir: /opt/app
